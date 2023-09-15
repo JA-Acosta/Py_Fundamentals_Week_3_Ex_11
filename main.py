@@ -2,12 +2,14 @@
 >>> JAAR
 >>> 09/15/2023
 >>> Practicing Fundamentals Program 23
->>> Version 0
+>>> Version 1
 '''
 
 '''
 >>> Generates a program that takes information and creates a JSON file then writes information to the JSON file.
 '''
+
+import json
 
 data = [
 	{
@@ -59,7 +61,8 @@ data = [
 
 
 def main() :
-    pass
+    with open( 'new_json.json', 'w' ) as njf :
+        json.dump(data, njf, indent= 2)
 
 if __name__ == '__main__' :
     main()
