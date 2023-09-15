@@ -1,0 +1,4 @@
+This is the twenty-second program derived from 100 program prompts suggested by ChatGPT for a 4 week python course.
+
+Prompt(s) Used:
+56. Create a JSON file and write information to it.
